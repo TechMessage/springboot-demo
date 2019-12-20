@@ -1,1 +1,12 @@
+server:
+  address: 0.0.0.0
+  port: 8181
+  servlet:
+    #项目名，必须以/开头
+    context-path: /spd
 
+
+spring:
+  devtools:
+    restart:
+      enabled: true

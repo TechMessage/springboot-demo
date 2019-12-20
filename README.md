@@ -28,7 +28,6 @@
 ```
 
 
-
 ### springboot 项目目录结构
 ```
 com
@@ -74,6 +73,21 @@ com
 
 SpringBootApplication ----> 一石三鸟 
 
+```
+
+
+### web配置
+> springboot 特别适合开发web项目，内嵌tomcat
+
+- spring-boot-starter-web
+```
+    1. 开发web的starter依赖
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+     
+    
 ```
 
 
@@ -124,7 +138,5 @@ SpringBootApplication ----> 一石三鸟
         server:
         address: 192.168.1.120
        
-    
-    
 ```
 

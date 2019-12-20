@@ -1,3 +1,3 @@
     项目：${application.title}
-    版本： ${application.version}
-    springboot版本： ${spring-boot.version}
+    版本：${application.version}
+    springboot：${spring-boot.version}
